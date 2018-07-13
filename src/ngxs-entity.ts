@@ -1,4 +1,2 @@
-// Import here Polyfills if needed. Recommended core-js (npm i -D core-js)
-// import "core-js/fn/array.find"
-// ...
-export default class DummyClass {}
+export { createEntityAdapter } from './create_adapter'
+export { Dictionary, EntityState, EntityAdapter, Update } from './models'
